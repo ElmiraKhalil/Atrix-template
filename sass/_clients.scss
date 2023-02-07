@@ -1,0 +1,28 @@
+.clients{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 100px;;
+    .test{
+        margin-left: 70px;
+        width: 20%;
+        h5{
+            color: blueviolet;
+        }
+        h1{
+            color: black;
+        }
+    }
+    .comment{
+        width: 70%;
+        display: flex;
+        .comment-1{
+            width: 550px;
+            height: 550px;
+            img{
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.buisness{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    .box-1{
+        margin-right: 300px;
+        h6{
+            color: blueviolet;
+            margin-top: 10px;
+        }
+        
+    }
+    .box-2{
+        p{
+            margin-top: 10px;
+            color: gray;
+        }
+    }
+}

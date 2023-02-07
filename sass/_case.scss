@@ -1,0 +1,36 @@
+.case{
+    width: 100%;
+    height: 950px;
+    background-color: none;
+   
+    h5{
+    margin-top: 20px;
+    margin-left: 700px;
+    color: blueviolet;}
+h1{
+    margin-left: 550px;  }
+nav{ width: 70%;
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    li{
+        list-style: none;
+        a{
+            color: gray;
+            
+        }
+        
+    }
+
+}
+}
+.comp{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+}

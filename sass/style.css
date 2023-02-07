@@ -1,0 +1,677 @@
+header {
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header nav ul .img {
+  width: 120px;
+  height: 50px;
+  margin-top: 5px;
+}
+header nav ul li {
+  width: 100%;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}
+
+.slidershow {
+  margin-top: 10px;
+  width: 1450px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover {
+  background: #fff;
+}
+
+input[name=r] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+.marks {
+  margin-top: 580px;
+  margin-left: 80px;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+}
+.marks nav {
+  width: 90%;
+}
+.marks nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marks nav ul li {
+  width: 100%;
+  list-style: none;
+}
+
+.buisness {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  width: 80%;
+  height: 200px;
+  background-color: white;
+}
+.buisness .box-1 {
+  margin-right: 300px;
+}
+.buisness .box-1 h6 {
+  color: blueviolet;
+  margin-top: 10px;
+}
+.buisness .box-2 p {
+  margin-top: 10px;
+  color: gray;
+}
+
+.quick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  width: 80%;
+  height: 300px;
+  background-color: white;
+}
+.quick .boxq-1 {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+.quick .boxq-1 .circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.quick .boxq-1 .circle img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.quick .boxq-2 {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: 60px;
+  background-color: white;
+  border: 1px solid black;
+}
+.quick .boxq-2 .circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.quick .boxq-2 .circle img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.quick .boxq-3 {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: 90px;
+  background-color: white;
+  border: 1px solid black;
+}
+.quick .boxq-3 .circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.quick .boxq-3 .circle img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.financial {
+  margin-left: 200px;
+  width: 70%;
+  height: 720px;
+  background-color: white;
+}
+.financial .textf h5 {
+  margin-left: 433px;
+  color: blueviolet;
+}
+.financial .textf h1 {
+  margin-left: 243px;
+}
+.financial .girl img {
+  margin-left: 578px;
+  margin-bottom: -56px;
+}
+.financial .sistatics {
+  margin-left: 100px;
+}
+
+.choose {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+}
+.choose .ui {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 600px;
+  background-image: url(http://azim.commonsupport.com/Atrix/assets/images/background/chooseus-bg-2.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.choose .ui .chh-1 {
+  width: 200px;
+  height: 200px;
+}
+.choose .ui .chh-1 img {
+  width: 200px;
+  height: 200px;
+}
+.choose .ui .chh-2 {
+  width: 200px;
+  height: 200px;
+}
+.choose .ui .chh-2 img {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+}
+.choose .market {
+  width: 50%;
+  height: 600px;
+  background-color: rgb(41, 29, 29);
+}
+.choose .market .textch {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.choose .market .textch h5 {
+  color: blueviolet;
+}
+.choose .market .textch h1 {
+  color: white;
+}
+.choose .market .textch p {
+  color: gray;
+}
+.choose .market .true-1 {
+  width: 70%;
+}
+.choose .market .true-1 .first {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 50%;
+  height: 400px;
+}
+.choose .market .true-1 .first .hpp {
+  margin-top: -50px;
+  margin-left: 70px;
+}
+.choose .market .true-1 .first .hpp h4 {
+  color: white;
+}
+.choose .market .true-1 .first .hpp p {
+  color: gray;
+}
+.choose .market .true-1 .first .spp {
+  margin-top: -50px;
+  margin-left: 70px;
+}
+.choose .market .true-1 .first .spp h4 {
+  color: white;
+}
+.choose .market .true-1 .first .spp p {
+  color: gray;
+}
+
+.services {
+  width: 100%;
+  height: 600px;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+}
+.services h5 {
+  margin-top: 20px;
+  margin-left: 700px;
+  color: blueviolet;
+}
+.services h1 {
+  margin-left: 550px;
+}
+.services .box-s {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.services .box-s .boxs-1 {
+  display: inline-block;
+  width: 370px;
+  height: 345px;
+  margin: 20px;
+  background-image: url(http://azim.commonsupport.com/Atrix/assets/images/service/service-1.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.services .box-s .boxs-1 .circle-s {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 15px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.services .box-s .boxs-1 .circle-s img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.services .box-s .boxs-1 h4 {
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.services .box-s .boxs-1 a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.services .box-s .boxs-2 {
+  display: inline;
+  width: 370px;
+  height: 345px;
+  margin: 20px;
+  background-image: url(http://azim.commonsupport.com/Atrix/assets/images/service/service-2.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.services .box-s .boxs-2 .circle-s {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 15px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.services .box-s .boxs-2 .circle-s img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.services .box-s .boxs-2 h4 {
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.services .box-s .boxs-2 a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.services .box-s .boxs-3 {
+  display: inline-block;
+  width: 370px;
+  height: 345px;
+  margin: 20px;
+  background-image: url(http://azim.commonsupport.com/Atrix/assets/images/service/service-3.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.services .box-s .boxs-3 .circle-s {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 50px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.services .box-s .boxs-3 .circle-s img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.services .box-s .boxs-3 h4 {
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.services .box-s .boxs-3 a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.bestb {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.bestb .ceo {
+  margin-left: 70px;
+  width: 50%;
+  height: 400px;
+}
+.bestb .ceo img {
+  width: 600px;
+  height: 350px;
+}
+.bestb .leo {
+  width: 50%;
+  height: 400px;
+}
+
+.awards {
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  background-color: #ebe8e8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.case {
+  width: 100%;
+  height: 950px;
+  background-color: none;
+}
+.case h5 {
+  margin-top: 20px;
+  margin-left: 700px;
+  color: blueviolet;
+}
+.case h1 {
+  margin-left: 550px;
+}
+.case nav {
+  width: 70%;
+}
+.case nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 350px;
+}
+.case nav ul li {
+  list-style: none;
+}
+.case nav ul li a {
+  color: gray;
+}
+.case .comp {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.clients {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 100px;
+}
+.clients .test {
+  margin-left: 70px;
+  width: 20%;
+}
+.clients .test h5 {
+  color: blueviolet;
+}
+.clients .test h1 {
+  color: black;
+}
+.clients .comment {
+  width: 70%;
+  display: flex;
+}
+.clients .comment .comment-1 {
+  width: 550px;
+  height: 550px;
+}
+.clients .comment .comment-1 img {
+  width: 400px;
+  height: 400px;
+}
+
+.lastest {
+  width: 100%;
+  height: 500px;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: -20px;
+}
+.lastest h5 {
+  margin-top: 20px;
+  margin-left: 650px;
+  color: blueviolet;
+}
+.lastest h1 {
+  margin-left: 550px;
+}
+.lastest .box-l {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.lastest .box-l .boxl-1 {
+  width: 370px;
+  height: 350px;
+  border: 1px solid silver;
+  padding: 15px;
+  background-color: white;
+}
+.lastest .box-l .boxl-1 .p-1 {
+  font-size: 20px;
+}
+.lastest .box-l .boxl-1 .p-2 {
+  margin-top: -49px;
+  margin-left: 234px;
+  color: gray;
+}
+.lastest .box-l .boxl-1 h3 a {
+  text-decoration: none;
+  color: black;
+}
+.lastest .box-l .boxl-1 .p-3 {
+  margin-left: -10px;
+  color: gray;
+}
+.lastest .box-l .boxl-1 .aa-1 {
+  width: 200px;
+  height: 200px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 15px;
+  margin-left: 40px;
+}
+
+.consultation {
+  width: 100%;
+  height: 400px;
+  background-color: #ebe8e8;
+}
+.consultation .generalcf {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 400px;
+  margin-left: 80px;
+  background-color: none;
+}
+.consultation .generalcf .cons-box {
+  width: 50%;
+  height: 300px;
+  margin-top: 150px;
+  background-color: none;
+}
+.consultation .generalcf .cons-box h5 {
+  margin-left: 50px;
+  color: blueviolet;
+}
+.consultation .generalcf .cons-box h2 {
+  margin-left: 50px;
+}
+.consultation .generalcf .cons-box p {
+  margin-left: 50px;
+  color: grey;
+}
+.consultation .generalcf .form-box {
+  width: 50%;
+  height: 500px;
+  background-color: none;
+}
+.consultation .generalcf .form-box .i-1 {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+.consultation .generalcf .form-box .i-2 {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.consultation .generalcf .form-box .i-3 {
+  width: 430px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+.consultation .generalcf .form-box .i-4 {
+  width: 430px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+.consultation .generalcf .form-box .button {
+  width: 430px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+  background-color: blueviolet;
+}
+.consultation .generalcf .form-box .button p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
